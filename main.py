@@ -17,3 +17,5 @@ async def say_hello(request: Request):
         "greeting": f"Hello{f' {visitor_name}' if visitor_name else visitor_name}!,"
                     f" the temperature is {temperature} in {city}"
     }
+
+
